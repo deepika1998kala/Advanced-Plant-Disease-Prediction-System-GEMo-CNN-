@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 10 12:59:32 2022
 
-
-@author: Jianping Yao
-
-jianping.yao@utas.edu.au
-"""
 import time,random,os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -162,19 +155,7 @@ def get_predictions(model, test_loader, device):
 
 #############################################################################
 
-'''
- This code of the TSNs was modified from:
-#  https://github.com/GuoleiSun/TSNs
-Their paper:
-@inproceedings{sun2021task,
-  title={Task Switching Network for Multi-Task Learning},
-  author={Sun, Guolei and Probst, Thomas and Paudel, Danda Pani and Popovi{\'c}, Nikola and Kanakis, Menelaos and Patel, Jagruti and Dai, Dengxin and Van Gool, Luc},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={8291--8300},
-  year={2021}
-}
 
-'''
 import torch
 import numpy as np
 # from torchsummary import summary
