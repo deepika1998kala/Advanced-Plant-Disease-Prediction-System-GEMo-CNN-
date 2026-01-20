@@ -1,14 +1,6 @@
 # -*- coding: utf-8 -*-
-'''
-Plant Pathology Deep Learning
-
-This is the code for paper "Deep Learning for Plant Identification and Disease Classification
-from Leaf Images: Multi-prediction Approaches".
-Please modify the parameters at here, then run main.py.
-'''
-
-dataset_dir = '/Users/deepikakala/Documents/project/Plant_Disease/Dataset/'  # please change the path of the datasets. 
-save_path = '/Users/deepikakala/Documents/project/Plant_Disease/test_model/'    # please change the path of results and model will be saved.
+dataset_dir = '/Users/deepikakala/Documents/project/Plant_Disease/Dataset/'  
+save_path = '/Users/deepikakala/Documents/project/Plant_Disease/test_model/'    
 
 
 # TF_weights='imagenet'
