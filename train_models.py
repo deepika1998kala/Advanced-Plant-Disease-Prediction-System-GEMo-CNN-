@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  5 18:38:39 2022
 
-@author: jyao1
-"""
 from tensorflow.keras import layers,optimizers,callbacks
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.layers import BatchNormalization,Conv2D,MaxPooling2D,Activation,Dropout,Lambda,Dense,Flatten,Input,MaxPool2D
@@ -361,20 +357,7 @@ def multi_model(model_name,input_layer,numPlants,numDis,item, TF_weights,op_z,IN
 
 
 #####################################################
-'''
- This code of the Cross-stitch was modified from:
-# https://github.com/AmazaspShumik/mtlearn/blob/8dc623e354df604c062288d8306768f7465fda97/mtlearn/layers/cross_stitch_block.py
-Their paper:
-@InProceedings{Misra_2016_CVPR,
-	author = {Misra, Ishan and Shrivastava, Abhinav and Gupta, Abhinav and Hebert, Martial},
-	title = {Cross-Stitch Networks for Multi-Task Learning},
-	booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-	month = {June},
-	year = {2016}
-}
 
-
-'''
 
 def cross_stitch(model_name,input_layer,numPlants,numDis,item,op_z,INIT_LR):
 
