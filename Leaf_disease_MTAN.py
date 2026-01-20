@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 10 12:04:39 2022
 
-@author: Jianping Yao
-
-jianping.yao@utas.edu.au
-"""
 import time,random,os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -160,20 +154,7 @@ def get_predictions(model, test_loader, device):
 
 
 #############################################################################
-'''
- This code of the MTAN was modified from:
-  https://github.com/lorenmt/mtan/blob/master/visual_decathlon/model_wrn_mtan.py
-Their paper:
-@inproceedings{liu2019end,
-  title={End-to-End Multi-task Learning with Attention},
-  author={Liu, Shikun and Johns, Edward and Davison, Andrew J},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={1871--1880},
-  year={2019}
-}
 
-
-'''
 import torch.nn.init as init
 def conv3x3(in_planes, out_planes, stride=1):
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride, padding=1, bias=True)
