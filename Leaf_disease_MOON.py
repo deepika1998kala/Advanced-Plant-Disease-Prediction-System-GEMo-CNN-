@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 10 12:40:36 2022
-
-@author: Jianping Yao
-
-jianping.yao@utas.edu.au
-"""
 import time,random,os
 import matplotlib.pyplot as plt
 import numpy as np
@@ -160,19 +153,7 @@ def get_predictions(model, test_loader, device):
     return x_test, y_test_p, y_test_d, y_pred_p, y_pred_d
 
 #############################################################################
-'''
- This code of the MOON was modified from:
-#  https://github.com/QinbinLi/MOON/blob/main/model.py
-Their paper:
-@inproceedings{li2021model,
-      title={Model-Contrastive Federated Learning}, 
-      author={Qinbin Li and Bingsheng He and Dawn Song},
-      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-      year={2021},
-}
 
-
-'''
 
 # base_model = 'simple-cnn'
 base_model = "resnet50-cifar10" 
